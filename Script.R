@@ -16,3 +16,6 @@ quantile(Human_CD3$Percent.Postive.Nuclei..CD3.)
 
 mean(Human_CD3$Percent.Postive.Nuclei..CD3.)
 #0.74
+HUman_IHC_CD68 <- read.csv("/Volumes/G-DRIVE mobile/Data_Analysis/Thesis/Chapter3/HUman_IHC_CD68.csv")
+hist(HUman_IHC_CD68$Percent..postive.Pixel)
+boxplot(HUman_IHC_CD68$Percent..postive.Pixel)
